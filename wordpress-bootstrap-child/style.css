@@ -5,7 +5,7 @@ Theme Name:     wordpress-bootstrap-master-child
 Description:    Child theme for the wp-bootstrap theme
 Author:         Taylor Thompson (tayl0rt)
 Template:       wordpress-bootstrap-master
-Version:        1.0 Alpha (Jul 26th, 2013)          
+Version:        1.0 Alpha (Aug 10, 2013)          
 
 ****************************************************                   
 ***************************************************/
@@ -31,7 +31,11 @@ General stuff below
 
 body {
 	font-family: sans-serif, Arial, Helvetica; 	/**** Sets fonts and background color ****/
-	background-color: #fff;
+	background-color: #efefef;
+}
+
+body.custom-background {
+	background-color: #efefef;			/**** Background color ****/
 }
 
 .attribution {
@@ -48,6 +52,15 @@ body {
 	display: none;					/**** hides theme name ****/
 }
 
+.taylorwebdesign {
+	float: right !Important;
+	font-size: .9em;
+}
+
+/******************
+Navigation Bar CSS
+******************/
+
 .navbar .brand {
 	color: #E5E5E5;					/**** Colors and removes BOLD weight on Site titles ****/
 	font-weight: normal !Important;
@@ -55,15 +68,15 @@ body {
 
 .navbar-inner {
 	border: 1px solid #000 !Important;		/**** sets border of Navbar to black (#000) ****/
-
-	background-image: -webkit-gradient(linear, 	/**** Background color of Navigation Bar! ****/
-		left top, left bottom, color-stop(0%, #2E2E2E), 
-		color-stop(100%, #494949)) !Important;  
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2E2E2E), color-stop(100%, #494949)) !Important;  /**** Background color of Navigation Bar! ****/
 }
 
-.taylorwebdesign {
-	float: right !Important;
-	font-size: .9em;
+.navbar .nav li a {
+	color: #efefef;
+}
+
+.navbar .nav li a:hover {
+	color: #ffffff;
 }
 
 
