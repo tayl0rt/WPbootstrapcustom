@@ -20,10 +20,11 @@
 					<p class="attribution">&copy; 
 						<?php 
 							bloginfo('name'); 
+
 						?>
+						- Theme Design by Taylor Thompson
 					</p>
 
-					<p class="taylorwebdesign"> Proudly powered by WordPress<br/>Designed by Taylor Thompson</p>
 					
 				</div> <!-- end #inner-footer -->
 				

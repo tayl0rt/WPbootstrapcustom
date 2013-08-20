@@ -5,7 +5,7 @@ Theme Name:     wordpress-bootstrap-master-child
 Description:    Child theme for the wp-bootstrap theme
 Author:         Taylor Thompson (tayl0rt)
 Template:       wordpress-bootstrap-master
-Version:        1.0 Alpha (Aug 10, 2013)          
+Version:        1.0 (Aug 20, 2013)          
 
 ****************************************************                   
 ***************************************************/
@@ -29,41 +29,15 @@ General stuff below
 	text-shadow: 0 0 0 #fff !Important;        	/**** Removes Shadows on entire page ****/
 }
 
-body {
-	font-family: sans-serif, Arial, Helvetica; 	/**** Sets fonts and background color ****/
-	background-color: #efefef;
-}
-
-body.custom-background {
-	background-color: #efefef;			/**** Background color ****/
-}
-
-#content {
-	background-color: #f7f7f7;			/**** Content background color ****/
-}
-
-.attribution {
-	text-align: center;				/**** aligns copyright center, and enlarges font size ****/
-	font-size: 20px;
-}
-
 .page-header h1 {
 	text-align: center;				/**** centers page titles ****/
-	display: none;
-}
-
-.post_content {
-	padding: 0 20px 10px 20px;
+	display: none;					/**** hides Title ****/
 }
 
 #credit320 {
 	display: none;					/**** hides theme name ****/
 }
 
-.taylorwebdesign {
-	float: right !Important;
-	font-size: .9em;
-}
 
 /******************
 Navigation Bar CSS
@@ -76,7 +50,9 @@ Navigation Bar CSS
 
 .navbar-inner {
 	border: 1px solid #000 !Important;		/**** sets border of Navbar to black (#000) ****/
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2E2E2E), color-stop(100%, #494949)) !Important;  /**** Background color of Navigation Bar! ****/
+
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2E2E2E),
+						color-stop(100%, #494949)) !Important;  /**** Background color of Navigation Bar! ****/
 }
 
 .navbar .nav li a {
@@ -85,6 +61,45 @@ Navigation Bar CSS
 
 .navbar .nav li a:hover {
 	color: #ffffff;
+}
+
+/*****************
+Sidebar CSS Below
+*****************/
+
+.widget {
+	margin-bottom: 18px;
+	position: fixed;
+}
+
+/******************
+Body/Container CSS
+******************/
+
+body {
+	font-family: sans-serif, Arial, Helvetica; 	/**** Sets fonts and background color ****/
+	background-color: #efefef;
+}
+
+body.custom-background {
+	background-color: #efefef;		/**** Background color ****/
+}
+
+#content {
+	background-color: #f7f7f7;		/**** Content background color ****/
+}
+
+.post_content {
+	padding: 0 20px 10px 20px;		/**** Padding for post content ****/
+}
+
+/****************
+Footer CSS Below
+****************/
+
+.attribution {
+	float: left;				/**** aligns copyright center, and enlarges font size ****/
+	font-size: 1em;
 }
 
 
