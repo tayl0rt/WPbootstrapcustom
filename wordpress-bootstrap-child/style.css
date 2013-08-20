@@ -52,6 +52,10 @@ body.custom-background {
 	display: none;
 }
 
+.post_content {
+	padding: 0 20px 10px 20px;
+}
+
 #credit320 {
 	display: none;					/**** hides theme name ****/
 }
